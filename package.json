@@ -1,0 +1,39 @@
+{
+  "name": "music-graph",
+  "version": "0.1.0",
+  "description": "Visualization of network of bands and musicians",
+  "keywords": [
+    "music",
+    "graph",
+    "band",
+    "network"
+  ],
+  "homepage": "https://github.com/Solmath/music-graph#readme",
+  "bugs": {
+    "url": "https://github.com/Solmath/music-graph/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Solmath/music-graph.git"
+  },
+  "license": "ISC",
+  "author": "Solmath",
+  "type": "module",
+  "private": "true",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^7.3.1",
+    "@tsconfig/svelte": "^5.0.8",
+    "svelte": "^5.57.2",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.3"
+  },
+  "dependencies": {
+    "force-graph": "^1.52.0"
+  }
+}

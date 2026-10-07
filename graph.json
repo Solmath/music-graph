@@ -1,0 +1,811 @@
+{
+  "meta": {
+    "schema_version": 1,
+    "description": "Gothenburg melodic death metal network around Mikael Stanne. All dates are placeholders (null) until verified.",
+    "node_types": ["musician", "band", "song"],
+    "link_types": ["member", "guest", "collaboration", "original", "cover"],
+    "date_sources": ["musicbrainz", "wikidata", "manual"]
+  },
+  "nodes": [
+    {
+      "id": "mikael-stanne",
+      "name": "Mikael Stanne",
+      "type": "musician",
+      "mbid": null,
+      "wikidata": null
+    },
+    {
+      "id": "dark-tranquillity",
+      "name": "Dark Tranquillity",
+      "type": "band",
+      "mbid": null,
+      "wikidata": null,
+      "start": 1989,
+      "end": null
+    },
+    {
+      "id": "in-flames",
+      "name": "In Flames",
+      "type": "band",
+      "mbid": null,
+      "wikidata": null,
+      "start": 1990,
+      "end": null
+    },
+    {
+      "id": "the-halo-effect",
+      "name": "The Halo Effect",
+      "type": "band",
+      "mbid": null,
+      "wikidata": null,
+      "start": 2021,
+      "end": null
+    },
+    {
+      "id": "hammerfall",
+      "name": "Hammerfall",
+      "type": "band",
+      "mbid": null,
+      "wikidata": null,
+      "start": null,
+      "end": null
+    },
+    {
+      "id": "cemetery-skyline",
+      "name": "Cemetery Skyline",
+      "type": "band",
+      "mbid": null,
+      "wikidata": null,
+      "start": 2020,
+      "end": null
+    },
+    {
+      "id": "nightrage",
+      "name": "Nightrage",
+      "type": "band",
+      "mbid": null,
+      "wikidata": null,
+      "start": null,
+      "end": null
+    },
+    {
+      "id": "insomnium",
+      "name": "Insomnium",
+      "type": "band",
+      "mbid": null,
+      "wikidata": null,
+      "start": 1997,
+      "end": null
+    },
+    {
+      "id": "omnium-gatherum",
+      "name": "Omnium Gatherum",
+      "type": "band",
+      "mbid": null,
+      "wikidata": null,
+      "start": 1996,
+      "end": null
+    },
+    {
+      "id": "grand-cadaver",
+      "name": "Grand Cadaver",
+      "type": "band",
+      "mbid": null,
+      "wikidata": null,
+      "start": 2020,
+      "end": null
+    },
+    {
+      "id": "anders-friden",
+      "name": "Anders Fridén",
+      "type": "musician",
+      "mbid": null,
+      "wikidata": null
+    },
+    {
+      "id": "daniel-liljekvist",
+      "name": "Daniel Liljekvist",
+      "type": "musician",
+      "mbid": null,
+      "wikidata": null
+    },
+    {
+      "id": "jesper-stromblad",
+      "name": "Jesper Strömblad",
+      "type": "musician",
+      "mbid": null,
+      "wikidata": null
+    },
+    {
+      "id": "peter-iwers",
+      "name": "Peter Iwers",
+      "type": "musician",
+      "mbid": null,
+      "wikidata": null
+    },
+    {
+      "id": "daniel-svensson",
+      "name": "Daniel Svensson",
+      "type": "musician",
+      "mbid": null,
+      "wikidata": null
+    },
+    {
+      "id": "niclas-engelin",
+      "name": "Niclas Engelin",
+      "type": "musician",
+      "mbid": null,
+      "wikidata": null
+    },
+    {
+      "id": "markus-vanhala",
+      "name": "Markus Vanhala",
+      "type": "musician",
+      "mbid": null,
+      "wikidata": null
+    },
+    {
+      "id": "victor-brandt",
+      "name": "Victor Brandt",
+      "type": "musician",
+      "mbid": null,
+      "wikidata": null
+    },
+    {
+      "id": "santeri-kallio",
+      "name": "Santeri Kallio",
+      "type": "musician",
+      "mbid": null,
+      "wikidata": null
+    },
+    {
+      "id": "vesa-ranta",
+      "name": "Vesa Ranta",
+      "type": "musician",
+      "mbid": null,
+      "wikidata": null
+    },
+    {
+      "id": "tomas-lindberg",
+      "name": "Tomas Lindberg",
+      "type": "musician",
+      "mbid": null,
+      "wikidata": null
+    },
+    {
+      "id": "joacim-cans",
+      "name": "Joacim Cans",
+      "type": "musician",
+      "mbid": null,
+      "wikidata": null
+    },
+    {
+      "id": "weather-the-storm",
+      "name": "Weather the Storm",
+      "type": "song",
+      "mbid": null,
+      "wikidata": null,
+      "start": null,
+      "end": null
+    },
+    {
+      "id": "steel-meets-steel",
+      "name": "Steel Meets Steel",
+      "type": "song",
+      "mbid": null,
+      "wikidata": null,
+      "start": null,
+      "end": null
+    },
+    {
+      "id": "niilo-sevanen",
+      "name": "Niilo Sevänen",
+      "type": "musician",
+      "mbid": null,
+      "wikidata": null
+    },
+    {
+      "id": "ville-friman",
+      "name": "Ville Friman",
+      "type": "musician",
+      "mbid": null,
+      "wikidata": null
+    },
+    {
+      "id": "markus-hirvonen",
+      "name": "Markus Hirvonen",
+      "type": "musician",
+      "mbid": null,
+      "wikidata": null
+    },
+    {
+      "id": "ville-vanni",
+      "name": "Ville Vänni",
+      "type": "musician",
+      "mbid": null,
+      "wikidata": null
+    },
+    {
+      "id": "tomy-laisto",
+      "name": "Tomy Laisto",
+      "type": "musician",
+      "mbid": null,
+      "wikidata": null
+    },
+    {
+      "id": "olli-lappalainen",
+      "name": "Olli Lappalainen",
+      "type": "musician",
+      "mbid": null,
+      "wikidata": null
+    },
+    {
+      "id": "jukka-pelkonen",
+      "name": "Jukka Pelkonen",
+      "type": "musician",
+      "mbid": null,
+      "wikidata": null
+    },
+    {
+      "id": "joonas-koto",
+      "name": "Joonas Koto",
+      "type": "musician",
+      "mbid": null,
+      "wikidata": null
+    },
+    {
+      "id": "mikko-kivisto",
+      "name": "Mikko Kivistö",
+      "type": "musician",
+      "mbid": null,
+      "wikidata": null
+    },
+    {
+      "id": "atte-pesonen",
+      "name": "Atte Pesonen",
+      "type": "musician",
+      "mbid": null,
+      "wikidata": null
+    },
+    {
+      "id": "aapo-koivisto",
+      "name": "Aapo Koivisto",
+      "type": "musician",
+      "mbid": null,
+      "wikidata": null
+    },
+    {
+      "id": "glenn-ljungstrom",
+      "name": "Glenn Ljungström",
+      "type": "musician",
+      "mbid": null,
+      "wikidata": null
+    },
+    {
+      "id": "johan-larsson",
+      "name": "Johan Larsson",
+      "type": "musician",
+      "mbid": null,
+      "wikidata": null
+    },
+    {
+      "id": "bjorn-gelotte",
+      "name": "Björn Gelotte",
+      "type": "musician",
+      "mbid": null,
+      "wikidata": null
+    },
+    {
+      "id": "joe-rickard",
+      "name": "Joe Rickard",
+      "type": "musician",
+      "mbid": null,
+      "wikidata": null
+    },
+    {
+      "id": "tanner-wayne",
+      "name": "Tanner Wayne",
+      "type": "musician",
+      "mbid": null,
+      "wikidata": null
+    },
+    {
+      "id": "chris-broderick",
+      "name": "Chris Broderick",
+      "type": "musician",
+      "mbid": null,
+      "wikidata": null
+    },
+    {
+      "id": "bryce-paul",
+      "name": "Bryce Paul",
+      "type": "musician",
+      "mbid": null,
+      "wikidata": null
+    },
+    {
+      "id": "liam-wilson",
+      "name": "Liam Wilson",
+      "type": "musician",
+      "mbid": null,
+      "wikidata": null
+    },
+    {
+      "id": "jon-rice",
+      "name": "Jon Rice",
+      "type": "musician",
+      "mbid": null,
+      "wikidata": null
+    }
+  ],
+  "links": [
+    {
+      "source": "mikael-stanne",
+      "target": "dark-tranquillity",
+      "type": "member",
+      "instruments": ["vocals", "guitars"],
+      "start": 1989,
+      "end": null,
+      "date_source": null
+    },
+    {
+      "source": "anders-friden",
+      "target": "dark-tranquillity",
+      "type": "member",
+      "instruments": ["vocals"],
+      "start": null,
+      "end": null,
+      "date_source": null
+    },
+    {
+      "source": "anders-friden",
+      "target": "in-flames",
+      "type": "member",
+      "instruments": ["vocals"],
+      "start": 1995,
+      "end": null,
+      "date_source": "manual"
+    },
+    {
+      "source": "mikael-stanne",
+      "target": "the-halo-effect",
+      "type": "member",
+      "instruments": ["vocals"],
+      "start": 2021,
+      "end": null,
+      "date_source": "manual"
+    },
+    {
+      "source": "mikael-stanne",
+      "target": "grand-cadaver",
+      "type": "member",
+      "instruments": ["vocals"],
+      "start": 2020,
+      "end": null,
+      "date_source": null
+    },
+    {
+      "source": "mikael-stanne",
+      "target": "hammerfall",
+      "type": "member",
+      "instruments": ["vocals"],
+      "start": 1993,
+      "end": 1996,
+      "date_source": "manual"
+    },
+    {
+      "source": "joacim-cans",
+      "target": "hammerfall",
+      "type": "member",
+      "instruments": ["vocals"],
+      "start": 1996,
+      "end": null,
+      "date_source": "manual"
+    },
+    {
+      "source": "mikael-stanne",
+      "target": "steel-meets-steel",
+      "type": "guest",
+      "instruments": ["vocals"],
+      "start": 2012,
+      "end": null,
+      "date_source": "manual"
+    },
+    {
+      "source": "hammerfall",
+      "target": "steel-meets-steel",
+      "type": "original",
+      "instruments": [],
+      "start": null,
+      "end": null,
+      "date_source": null
+    },
+    {
+      "source": "mikael-stanne",
+      "target": "in-flames",
+      "type": "guest",
+      "instruments": ["vocals"],
+      "start": 1994,
+      "end": 1994,
+      "date_source": "manual"
+    },
+    {
+      "source": "daniel-liljekvist",
+      "target": "grand-cadaver",
+      "type": "member",
+      "instruments": ["drums"],
+      "start": 2020,
+      "end": null,
+      "date_source": "manual"
+    },
+    {
+      "source": "jesper-stromblad",
+      "target": "the-halo-effect",
+      "type": "member",
+      "instruments": ["guitars"],
+      "start": 2021,
+      "end": null,
+      "date_source": "manual"
+    },
+    {
+      "source": "peter-iwers",
+      "target": "the-halo-effect",
+      "type": "member",
+      "instruments": ["bass"],
+      "start": 2021,
+      "end": null,
+      "date_source": "manual"
+    },
+    {
+      "source": "daniel-svensson",
+      "target": "the-halo-effect",
+      "type": "member",
+      "instruments": ["drums"],
+      "start": 2021,
+      "end": null,
+      "date_source": "manual"
+    },
+    {
+      "source": "niclas-engelin",
+      "target": "the-halo-effect",
+      "type": "member",
+      "instruments": ["guitars"],
+      "start": 2021,
+      "end": null,
+      "date_source": "manual"
+    },
+    {
+      "source": "mikael-stanne",
+      "target": "cemetery-skyline",
+      "type": "member",
+      "instruments": ["vocals"],
+      "start": 2020,
+      "end": null,
+      "date_source": "manual"
+    },
+    {
+      "source": "markus-vanhala",
+      "target": "cemetery-skyline",
+      "type": "member",
+      "instruments": ["guitars"],
+      "start": 2020,
+      "end": null,
+      "date_source": "manual"
+    },
+    {
+      "source": "victor-brandt",
+      "target": "cemetery-skyline",
+      "type": "member",
+      "instruments": ["bass"],
+      "start": 2020,
+      "end": null,
+      "date_source": "manual"
+    },
+    {
+      "source": "santeri-kallio",
+      "target": "cemetery-skyline",
+      "type": "member",
+      "instruments": ["keyboards"],
+      "start": 2020,
+      "end": null,
+      "date_source": "manual"
+    },
+    {
+      "source": "vesa-ranta",
+      "target": "cemetery-skyline",
+      "type": "member",
+      "instruments": ["drums"],
+      "start": 2020,
+      "end": null,
+      "date_source": "manual"
+    },
+    {
+      "source": "mikael-stanne",
+      "target": "nightrage",
+      "type": "guest",
+      "instruments": ["vocals"],
+      "start": 2005,
+      "end": 2005,
+      "date_source": "manual"
+    },
+    {
+      "source": "tomas-lindberg",
+      "target": "nightrage",
+      "type": "guest",
+      "instruments": ["vocals"],
+      "start": 2005,
+      "end": 2005,
+      "date_source": "manual"
+    },
+    {
+      "source": "mikael-stanne",
+      "target": "weather-the-storm",
+      "type": "guest",
+      "instruments": ["vocals"],
+      "start": 2010,
+      "end": null,
+      "date_source": "manual"
+    },
+    {
+      "source": "insomnium",
+      "target": "weather-the-storm",
+      "type": "original",
+      "instruments": [],
+      "start": null,
+      "end": null,
+      "date_source": null
+    },
+    {
+      "source": "markus-vanhala",
+      "target": "insomnium",
+      "type": "member",
+      "instruments": ["guitars"],
+      "start": 2011,
+      "end": null,
+      "date_source": "manual"
+    },
+    {
+      "source": "markus-vanhala",
+      "target": "omnium-gatherum",
+      "type": "member",
+      "instruments": ["guitars"],
+      "start": 1996,
+      "end": null,
+      "date_source": "manual"
+    },
+    {
+      "source": "niilo-sevanen",
+      "target": "insomnium",
+      "type": "member",
+      "instruments": ["vocals", "bass"],
+      "start": 1997,
+      "end": null,
+      "date_source": "manual"
+    },
+    {
+      "source": "ville-friman",
+      "target": "insomnium",
+      "type": "member",
+      "instruments": ["guitars", "vocals"],
+      "start": 1997,
+      "end": null,
+      "date_source": "manual"
+    },
+    {
+      "source": "markus-hirvonen",
+      "target": "insomnium",
+      "type": "member",
+      "instruments": ["drums"],
+      "start": 1997,
+      "end": null,
+      "date_source": "manual"
+    },
+    {
+      "source": "ville-vanni",
+      "target": "insomnium",
+      "type": "member",
+      "instruments": ["guitars"],
+      "start": 2001,
+      "end": 2011,
+      "date_source": "manual"
+    },
+    {
+      "source": "tomy-laisto",
+      "target": "insomnium",
+      "type": "member",
+      "instruments": ["guitars"],
+      "start": 2025,
+      "end": null,
+      "date_source": "manual"
+    },
+    {
+      "source": "olli-lappalainen",
+      "target": "omnium-gatherum",
+      "type": "member",
+      "instruments": [],
+      "start": 1996,
+      "end": null,
+      "date_source": "manual"
+    },
+    {
+      "source": "jukka-pelkonen",
+      "target": "omnium-gatherum",
+      "type": "member",
+      "instruments": ["vocals"],
+      "start": 2006,
+      "end": null,
+      "date_source": "manual"
+    },
+    {
+      "source": "joonas-koto",
+      "target": "omnium-gatherum",
+      "type": "member",
+      "instruments": ["guitars"],
+      "start": 2011,
+      "end": 2020,
+      "date_source": "manual"
+    },
+    {
+      "source": "joonas-koto",
+      "target": "omnium-gatherum",
+      "type": "member",
+      "instruments": ["guitars"],
+      "start": 2025,
+      "end": null,
+      "date_source": "manual"
+    },
+    {
+      "source": "mikko-kivisto",
+      "target": "omnium-gatherum",
+      "type": "member",
+      "instruments": ["bass"],
+      "start": 2020,
+      "end": null,
+      "date_source": "manual"
+    },
+    {
+      "source": "atte-pesonen",
+      "target": "omnium-gatherum",
+      "type": "member",
+      "instruments": ["drums"],
+      "start": 2021,
+      "end": null,
+      "date_source": "manual"
+    },
+    {
+      "source": "aapo-koivisto",
+      "target": "omnium-gatherum",
+      "type": "member",
+      "instruments": ["keyboards"],
+      "start": 2005,
+      "end": null,
+      "date_source": "manual"
+    },
+    {
+      "source": "jesper-stromblad",
+      "target": "in-flames",
+      "type": "member",
+      "instruments": ["drums", "guitars"],
+      "start": 1990,
+      "end": 2010,
+      "date_source": "manual"
+    },
+    {
+      "source": "glenn-ljungstrom",
+      "target": "in-flames",
+      "type": "member",
+      "instruments": ["guitars"],
+      "start": 1993,
+      "end": 1997,
+      "date_source": "manual"
+    },
+    {
+      "source": "johan-larsson",
+      "target": "in-flames",
+      "type": "member",
+      "instruments": ["bass"],
+      "start": 1993,
+      "end": 1997,
+      "date_source": "manual"
+    },
+    {
+      "source": "bjorn-gelotte",
+      "target": "in-flames",
+      "type": "member",
+      "instruments": ["drums", "guitars"],
+      "start": 1995,
+      "end": null,
+      "date_source": "manual"
+    },
+    {
+      "source": "niclas-engelin",
+      "target": "in-flames",
+      "type": "member",
+      "instruments": ["guitars"],
+      "start": 1997,
+      "end": 1998,
+      "date_source": "manual"
+    },
+    {
+      "source": "niclas-engelin",
+      "target": "in-flames",
+      "type": "member",
+      "instruments": ["guitars"],
+      "start": 2011,
+      "end": 2022,
+      "date_source": "manual"
+    },
+    {
+      "source": "peter-iwers",
+      "target": "in-flames",
+      "type": "member",
+      "instruments": ["bass"],
+      "start": 1998,
+      "end": 2016,
+      "date_source": "manual"
+    },
+    {
+      "source": "daniel-svensson",
+      "target": "in-flames",
+      "type": "member",
+      "instruments": ["drums"],
+      "start": 1998,
+      "end": 2015,
+      "date_source": "manual"
+    },
+    {
+      "source": "joe-rickard",
+      "target": "in-flames",
+      "type": "member",
+      "instruments": ["drums"],
+      "start": 2016,
+      "end": 2018,
+      "date_source": "manual"
+    },
+    {
+      "source": "tanner-wayne",
+      "target": "in-flames",
+      "type": "member",
+      "instruments": ["drums"],
+      "start": 2018,
+      "end": 2025,
+      "date_source": "manual"
+    },
+    {
+      "source": "bryce-paul",
+      "target": "in-flames",
+      "type": "member",
+      "instruments": ["bass"],
+      "start": 2017,
+      "end": 2023,
+      "date_source": "manual"
+    },
+    {
+      "source": "liam-wilson",
+      "target": "in-flames",
+      "type": "member",
+      "instruments": ["bass"],
+      "start": 2024,
+      "end": null,
+      "date_source": "manual"
+    },
+    {
+      "source": "chris-broderick",
+      "target": "in-flames",
+      "type": "member",
+      "instruments": ["guitars"],
+      "start": 2022,
+      "end": null,
+      "date_source": "manual"
+    },
+    {
+      "source": "jon-rice",
+      "target": "in-flames",
+      "type": "member",
+      "instruments": ["drums"],
+      "start": 2026,
+      "end": null,
+      "date_source": "manual"
+    }
+  ]
+}
