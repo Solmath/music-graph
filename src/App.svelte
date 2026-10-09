@@ -1,5 +1,5 @@
 <script lang="ts">
-  import GraphView from './GraphView.svelte'
+import GraphView from "./GraphView.svelte";
 </script>
 
 <div class="page">
