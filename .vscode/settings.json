@@ -1,0 +1,41 @@
+{
+	"python.defaultInterpreterPath": "backend/.venv/Scripts/python.exe",
+	"files.associations": {
+		"*.css": "tailwindcss"
+	},
+	"prettier.documentSelectors": ["**/*.svelte"],
+	"chat.agentSkillsLocations": {
+		"frontend/.agents/skills": true,
+		"backend/.agents/skills": true
+	},
+	"[css]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[html]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[json]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[python]": {
+		"editor.defaultFormatter": "charliermarsh.ruff"
+	},
+	"[typescript]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "biomejs.biome"
+	},
+	// Biome LSP configuration workaround:
+	// https://github.com/biomejs/biome-vscode/issues/680#issuecomment-3188786705
+	// "biome.lsp.bin": "webapp/node_modules/@biomejs/biome/bin/biome",
+	"biome.lsp.bin": {
+		"darwin-arm64": "node_modules/@biomejs/cli-darwin-arm64/biome",
+		"darwin-x64": "node_modules/@biomejs/cli-darwin-x64/biome",
+		"linux-arm64": "node_modules/@biomejs/cli-linux-arm64/biome",
+		"linux-arm64-musl": "node_modules/@biomejs/cli-linux-arm64-musl/biome",
+		"linux-x64": "node_modules/@biomejs/cli-linux-x64/biome",
+		"linux-x64-musl": "node_modules/@biomejs/cli-linux-x64-musl/biome",
+		"win32-x64": "node_modules/@biomejs/cli-win32-x64/biome.exe"
+	}
+}
