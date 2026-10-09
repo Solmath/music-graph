@@ -1,0 +1,15 @@
+[project]
+name = "band-graph-backend"
+version = "0.1.0"
+description = "Backend for the band/musician network graph"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi[standard]",  # FastAPI + uvicorn + the `fastapi dev` command
+    "sqlmodel",           # tables + Pydantic models in one class (SQLAlchemy underneath)
+    "musicbrainzngs",     # MusicBrainz API client (rate limiting built in)
+]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.16.10",
+]
